@@ -11,16 +11,16 @@ object RetrofitClient {
 
     private val loggingInterceptor: HttpLoggingInterceptor by lazy {
         HttpLoggingInterceptor().apply {
-            level = HttpLoggingInterceptor.Level.BODY // Nivel de detalle de los logs
+            level = HttpLoggingInterceptor.Level.BODY
         }
     }
 
     private val okHttpClient: OkHttpClient by lazy {
         OkHttpClient.Builder()
             .addInterceptor(loggingInterceptor)
-            .connectTimeout(30, TimeUnit.SECONDS) // Timeout de conexión
-            .readTimeout(30, TimeUnit.SECONDS) // Timeout de lectura
-            .writeTimeout(30, TimeUnit.SECONDS) // Timeout de escritura
+            .connectTimeout(30, TimeUnit.SECONDS)
+            .readTimeout(30, TimeUnit.SECONDS)
+            .writeTimeout(30, TimeUnit.SECONDS)
             .build()
     }
 

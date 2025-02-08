@@ -1,9 +1,7 @@
 package com.example.prueba.ui.home.adapter
 
 import android.view.View
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.prueba.R
 import com.example.prueba.data.model.Facts
 import com.example.prueba.databinding.ItemFactBinding
 

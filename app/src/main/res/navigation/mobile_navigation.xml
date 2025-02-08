@@ -18,7 +18,7 @@
 
     <fragment
         android:id="@+id/factDetailFragment"
-        android:name="com.example.prueba.ui.fatDetail.FactDetailFragment"
+        android:name="com.example.prueba.ui.factDetail.FactDetailFragment"
         android:label="fragment_fact_detail"
         tools:layout="@layout/fragment_fact_detail" />
 

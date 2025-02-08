@@ -14,7 +14,7 @@ import com.example.prueba.R
 import com.example.prueba.data.model.Facts
 import com.example.prueba.data.model.UiState
 import com.example.prueba.databinding.FragmentHomeBinding
-import com.example.prueba.ui.fatDetail.ARG_FACT
+import com.example.prueba.ui.factDetail.ARG_FACT
 import com.example.prueba.ui.home.adapter.FactsAdapter
 
 class HomeFragment : Fragment(), SearchView.OnQueryTextListener {

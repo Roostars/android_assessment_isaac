@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="15dp"
-        tools:context=".ui.fatDetail.FactDetailFragment">
+        tools:context=".ui.factDetail.FactDetailFragment">
 
 
         <TextView
@@ -157,7 +157,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="22dp"
-            android:text="Share"
+            android:text="Share on WhatsApp"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

@@ -1,4 +1,4 @@
-package com.example.prueba.ui.fatDetail
+package com.example.prueba.ui.factDetail
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -32,7 +32,6 @@ class FactDetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        //return inflater.inflate(R.layout.fragment_fact_detail, container, false)
         _binding = FragmentFactDetailBinding.inflate(inflater, container, false)
         return binding.root
     }
