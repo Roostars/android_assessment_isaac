@@ -40,11 +40,9 @@ class MainActivity : AppCompatActivity() {
         factsViewModel.facts.observe(this) { uiState ->
             when (uiState) {
                 UiState.Loading -> {
-                    //mostrar loader
                 }
 
                 is UiState.Error -> {
-                    //ocultar loader
                     Toast.makeText(this, uiState.message, Toast.LENGTH_SHORT).show()
                 }
 
@@ -59,13 +57,10 @@ class MainActivity : AppCompatActivity() {
                 UiState.Loading -> Unit
 
                 is UiState.Error -> {
-                    //ocultar loader
                     Toast.makeText(this, it.message, Toast.LENGTH_SHORT).show()
                 }
 
                 is UiState.Success -> {
-                    //ocultar loader
-                    //navegar a vista
                     val intent = Intent(this, HomeActivity::class.java)
                     startActivity(intent)
                     finish()
